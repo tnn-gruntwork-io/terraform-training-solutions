@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------------------------------------------------------------
 # TERRAGRUNT CONFIGURATION
 # This is the configuration for Terragrunt, a thin wrapper for Terraform that supports locking and enforces best
-# practices: https://github.com/gruntwork-io/terragrunt
+# practices: https://github.com/tnn-gruntwork-io/terragrunt
 # ---------------------------------------------------------------------------------------------------------------------
 
 terragrunt = {
