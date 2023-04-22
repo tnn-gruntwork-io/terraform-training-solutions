@@ -5,7 +5,7 @@ that returns HTML and a backend that returns JSON. Both microservices are built 
 an Auto Scaling Group (ASG) with an Application Load Balancer (ALB) in front of it. The frontend talks to the backend 
 via the backend's ALB.
 
-Note that we use [Terragrunt](https://github.com/gruntwork-io/terragrunt) to keep the code DRY.
+Note that we use [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt) to keep the code DRY.
 
 
 
@@ -18,7 +18,7 @@ To deploy these modules:
 
 1. Install [Terraform](https://www.terraform.io/)
 
-1. Install [Terragrunt](https://github.com/gruntwork-io/terragrunt)
+1. Install [Terragrunt](https://github.com/tnn-gruntwork-io/terragrunt)
 
 1. Open up `live/terraform.tfvars` and fill in the variables labeled with a `TODO`
 
